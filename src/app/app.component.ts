@@ -9,6 +9,6 @@ export class AppComponent {
   data = { counter: 0 };
 
   increment() {
-    this.data.counter++;
+    this.data = { counter: ++this.data.counter };
   }
 }

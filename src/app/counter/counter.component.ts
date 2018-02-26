@@ -1,8 +1,9 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, ChangeDetectionStrategy } from '@angular/core';
 
 @Component({
     selector: 'app-counter',
-    template: '<p>Items: {{data.counter}}</p>'
+    template: '<p>Items: {{data.counter}}</p>',
+    changeDetection: ChangeDetectionStrategy.OnPush
 })
 
 export class AppCounterComponent {
