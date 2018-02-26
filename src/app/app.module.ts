@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { AppCounterComponent } from './counter/counter.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AppCounterComponent
   ],
   imports: [
     BrowserModule
